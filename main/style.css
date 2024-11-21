@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(30, 30, 30);
+    text-align: center;
+    color: white;
+    
+}
+
+#menu_haut {
+    text-align: right;
+}
+
+.bouton {
+    color: black;
+    background-color: rgb(255, 226, 48);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+}
+  
+.bouton:hover {
+    background-color: rgb(160, 143, 31);
+    /* border-color: white; */
+    color: white;
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);  */
+}
+  
+.bouton:active {
+    background-color: rgb(105, 94, 20);
+    /* opacity: 50%; */
+}
+
+.bouton:disabled {
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+/* login.php -> */
+#login_form {
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: rgba(30, 30, 30, 0.9);
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+#login_form * {
+    position: relative;
+    
+}
+
+#bouton_close_form {
+    text-align: right;
+}
+
+#bouton_close_form > .bouton {
+    background-color: rgb(255, 0, 0);
+}
+
+#bouton_close_form > .bouton:hover {
+    background-color: rgb(184, 0, 0);
+}
+
+#bouton_close_form > .bouton:active {
+    background-color: rgb(106, 0, 0);
+}
+/* <- login.php */
+
+/* index.php ->*/
+.titre_listePartiesContainer {
+    margin-left: 25%;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.listePartiesContainer {
+    /* position: absolute; */
+    /* width: auto; */
+    border: 1px solid #f1f1f1;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.boutonsContainer {
+    position: relative;
+    text-align: right;
+    margin-bottom: 2%;
+}
+
+.partie {
+    margin-bottom: 2%;
+    /* border: 1px solid #eee; */
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+}
+
+.partie:last-child {
+    margin-bottom: 0;
+}
+
+#vosParties .bouton, #nouvellesParties .bouton {
+    margin-bottom: 2%;
+}
+/* <- index.php */
+

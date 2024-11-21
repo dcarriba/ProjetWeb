@@ -1,0 +1,452 @@
+.interface_maison{
+    position: relative;
+    width: 50%;
+    max-width: 800px; /* Largeur maximale pour limiter la largeur de l'interface */
+    margin: 0 auto; /* Centrer l'interface horizontalement */
+    background-color: lightblue; /* Couleur de fond pour visualiser la zone */
+    padding: 20px; /* Ajouter un espace autour du contenu */
+}
+
+.maison {
+    position: relative;
+    width: 100%; 
+    max-width: 100%;
+    height: auto; 
+    z-index: 1; 
+}
+
+#baignoire1 {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 47.3%;
+    left: 35.4%;
+    z-index: 3;
+}
+
+#canape1 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 73.5%;
+    left: 48.1%;
+    z-index: 3;
+}
+
+#cuisine1 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 62.8%;
+    left: 34%;
+    z-index: 3;
+}
+
+#wc1 {
+    position: absolute;
+    width: 6.5%;
+    height: auto;
+    top: 50.2%;
+    left: 29%;
+    z-index: 3;
+}
+
+#table1 {
+    position: absolute;
+    width: 11.3%;
+    height: auto;
+    top: 71.8%;
+    left: 62.2%;
+    z-index: 3;
+}
+
+#tv1 {
+    position: absolute;
+    width: 7.2%;
+    height: auto;
+    top: 49.8%;
+    left: 66.8%;
+    z-index:3;
+}
+
+#radio1 {
+    position: absolute;
+    width: 7.8%;
+    height: auto;
+    top: 47.6%;
+    left: 57.8%;
+    z-index: 3;
+}
+
+#velo1 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 75.6%;
+    left: 23.8%;
+    z-index: 3;
+}
+
+#machine_a_laver1 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 74%;
+    left: 28.5%;
+    z-index: 3;
+}
+
+#pingpong1 {
+    position: absolute;
+    width: 8%;
+    height: auto;
+    top: 71.3%;
+    left: 15.5%;
+    z-index: 3;
+}
+
+#lit1 {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 51.9%;
+    left: 47.8%;
+    z-index: 3;
+}
+
+#baignoire2 {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 47.3%;
+    left: 35.4%;
+    z-index: 3;
+}
+
+#canape2 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 73.5%;
+    left: 48.1%;
+    z-index: 3;
+}
+
+#cuisine2 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 62.8%;
+    left: 34%;
+    z-index: 3;
+}
+
+#wc2 {
+    position: absolute;
+    width: 6.5%;
+    height: auto;
+    top: 50.2%;
+    left: 29%;
+    z-index: 3;
+}
+
+#table2 {
+    position: absolute;
+    width: 11.3%;
+    height: auto;
+    top: 71.8%;
+    left: 62.2%;
+    z-index: 3;
+}
+
+#tv2 {
+    position: absolute;
+    width: 7.2%;
+    height: auto;
+    top: 49.8%;
+    left: 66.8%;
+    z-index:3;
+}
+
+#radio2 {
+    position: absolute;
+    width: 7.8%;
+    height: auto;
+    top: 47.6%;
+    left: 57.8%;
+    z-index: 3;
+}
+
+#velo2 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 75.6%;
+    left: 23.8%;
+    z-index: 3;
+}
+
+#machine_a_laver2 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 74%;
+    left: 28.5%;
+    z-index: 3;
+}
+
+#pingpong2 {
+    position: absolute;
+    width: 8%;
+    height: auto;
+    top: 71.3%;
+    left: 15.5%;
+    z-index: 3;
+}
+
+#lit2 {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 51.9%;
+    left: 47.8%;
+    z-index: 3;
+}
+
+#baignoire3 {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 47.3%;
+    left: 35.4%;
+    z-index: 3;
+}
+
+#canape3 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 73.5%;
+    left: 48.1%;
+    z-index: 3;
+}
+
+#cuisine3 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 62.8%;
+    left: 34%;
+    z-index: 3;
+}
+
+#wc3 {
+    position: absolute;
+    width: 6.5%;
+    height: auto;
+    top: 50.2%;
+    left: 29%;
+    z-index: 3;
+}
+
+#table3 {
+    position: absolute;
+    width: 11.3%;
+    height: auto;
+    top: 71.8%;
+    left: 62.2%;
+    z-index: 3;
+}
+
+#tv3 {
+    position: absolute;
+    width: 7.2%;
+    height: auto;
+    top: 49.8%;
+    left: 66.8%;
+    z-index:3;
+}
+
+#radio3 {
+    position: absolute;
+    width: 7.8%;
+    height: auto;
+    top: 47.6%;
+    left: 57.8%;
+    z-index: 3;
+}
+
+#velo3 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 75.6%;
+    left: 23.8%;
+    z-index: 3;
+}
+
+#machine_a_laver3 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 74%;
+    left: 28.5%;
+    z-index: 3;
+}
+
+#pingpong3 {
+    position: absolute;
+    width: 8%;
+    height: auto;
+    top: 71.3%;
+    left: 15.5%;
+    z-index: 3;
+}
+
+#lit3 {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 51.9%;
+    left: 47.8%;
+    z-index: 3;
+}
+
+#baignoire4 {
+    position: absolute;
+    width: 12%;
+    height: auto;
+    top: 47.3%;
+    left: 35.4%;
+    z-index: 3;
+}
+
+#canape4 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 73.5%;
+    left: 48.1%;
+    z-index: 3;
+}
+
+#cuisine4 {
+    position: absolute;
+    width: 13%;
+    height: auto;
+    top: 62.8%;
+    left: 34%;
+    z-index: 3;
+}
+
+#wc4 {
+    position: absolute;
+    width: 6.5%;
+    height: auto;
+    top: 50.2%;
+    left: 29%;
+    z-index: 3;
+}
+
+#table4 {
+    position: absolute;
+    width: 11.3%;
+    height: auto;
+    top: 71.8%;
+    left: 62.2%;
+    z-index: 3;
+}
+
+#tv4 {
+    position: absolute;
+    width: 7.2%;
+    height: auto;
+    top: 49.8%;
+    left: 66.8%;
+    z-index:3;
+}
+
+#radio4 {
+    position: absolute;
+    width: 7.8%;
+    height: auto;
+    top: 47.6%;
+    left: 57.8%;
+    z-index: 3;
+}
+
+#velo4 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 75.6%;
+    left: 23.8%;
+    z-index: 3;
+}
+
+#machine_a_laver4 {
+    position: absolute;
+    width: 5%;
+    height: auto;
+    top: 74%;
+    left: 28.5%;
+    z-index: 3;
+}
+
+#pingpong4 {
+    position: absolute;
+    width: 8%;
+    height: auto;
+    top: 71.3%;
+    left: 15.5%;
+    z-index: 3;
+}
+
+#lit4 {
+    position: absolute;
+    width: 10%;
+    height: auto;
+    top: 51.9%;
+    left: 47.8%;
+    z-index: 3;
+}
+
+.meubles {
+    visibility: hidden; /* Cacher toutes les images par défaut */
+}
+
+.bouton_infos, .bouton_maison{
+    position: relative;
+    color: black;
+    background-color: rgb(255, 226, 48);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+
+}
+
+.bouton_infos:hover, .bouton_maison:hover {
+    background-color: rgb(160, 143, 31);
+    color: white;
+}
+
+.bouton_infos:active, .bouton_maison:active {
+    background-color: rgb(105, 94, 20);
+}
+
+
+#bouton_maison1{
+    visibility: hidden;
+}
+#bouton_maison2{
+    visibility: hidden;
+}
+#bouton_maison3{
+    visibility: hidden;
+}
+#bouton_maison4{
+    visibility: hidden;
+}
